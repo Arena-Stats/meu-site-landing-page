@@ -40,19 +40,13 @@
 <body class="min-h-screen bg-white text-[--brand-dark-green] antialiased flex flex-col items-center justify-center p-8">
 
     <!-- Card Principal -->
-    <main class="w-full max-w-2xl">
+    <main class="w-full max-w-2xl flex-grow flex items-center justify-center">
         <div class="mx-auto w-full rounded-3xl border-2 bg-gray-50/50 p-8 sm:p-10 shadow-lg" style="border-color: var(--brand-gold);">
             <div class="relative flex flex-col items-center text-center gap-8">
                 
-                <!-- Logos -->
-                <div class="flex flex-col sm:flex-row items-center gap-6">
-                    <!-- Sua Logo -->
-                    <img src="logo-arena-stats.png" alt="Logo Arena Stats" class="h-14 w-auto" />
-                    
-                    <span class="text-gray-300 hidden sm:block">×</span>
-                    
-                    <!-- Logo Microsoft for Startups -->
-                    <img src="microsoft-logo-1.png" alt="Microsoft for Startups" class="h-10 w-auto" />
+                <!-- Logo Principal -->
+                <div class="flex flex-col sm:flex-row items-center justify-center gap-6 w-full">
+                    <img src="logo-arena-stats.png" alt="Logo Arena Stats" class="h-16 w-auto" />
                 </div>
 
                 <!-- Linha Divisória -->
@@ -71,6 +65,16 @@
             </div>
         </div>
     </main>
+
+    <!-- Rodapé com Apoio -->
+    <footer class="w-full py-8">
+        <div class="text-center">
+            <!-- Texto posicionado acima do logótipo -->
+            <p class="text-sm text-gray-500 mb-3">Desenvolvido com o apoio da:</p>
+            <!-- Logótipo posicionado abaixo do texto -->
+            <img src="microsoft-logo-1.png" alt="Microsoft for Startups" class="h-10 w-auto mx-auto" />
+        </div>
+    </footer>
 
 </body>
 </html>
